@@ -1,0 +1,23 @@
+.l-header {
+  min-height: 2rem;
+  background-color: #412c85;
+  box-shadow: #ffffff60 -2px 0px 5px;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.l-header_nav--menu {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 1rem;
+  font-size: 20px;
+  list-style: none;
+}
+
+.l-header_nav--menu_item a {
+  color: #fff3f3;
+}

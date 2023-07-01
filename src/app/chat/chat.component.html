@@ -1,0 +1,18 @@
+<app-nav-bar></app-nav-bar>
+<h1 class="l-titulo">Chat-Tutorial</h1>
+
+<section class="l-container">
+
+  <div class="l-container_chat" >
+    <ul>
+      <li *ngFor="let message of messages">
+        <p>{{ message }}</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="l-container_form">
+    <input type="text"  [(ngModel)]="messageText" placeholder="sua mensagem">
+    <button (click)="sendMessage(messageText)">enviar</button>
+  </div>
+</section>
